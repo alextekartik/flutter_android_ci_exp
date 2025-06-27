@@ -16,5 +16,6 @@ Future<void> createAndroidProject() async {
   await Directory(workDir).parent.create(recursive: true);
 
   await run(
-      'flutter create --template app --platforms android ${shellArgument(workDir)}');
+    'flutter create --template app --platforms android ${shellArgument(workDir)}',
+  );
 }

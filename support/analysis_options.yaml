@@ -42,8 +42,6 @@ linter:
     - directives_ordering
     - empty_catches
     - hash_and_equals
-    - iterable_contains_unrelated_type
-    - list_remove_unrelated_type
     - no_adjacent_strings_in_list
     - no_duplicate_case_values
     - non_constant_identifier_names
@@ -74,11 +72,8 @@ linter:
     - prefer_const_constructors
     - prefer_initializing_formals
     - prefer_void_to_null
-    #
-    - always_require_non_null_named_parameters
     - annotate_overrides
     - avoid_init_to_null
-    - avoid_null_checks_in_equality_operators
     - avoid_return_types_on_setters
     - empty_constructor_bodies
     - library_names
@@ -86,7 +81,6 @@ linter:
     - prefer_adjacent_string_concatenation
     - prefer_collection_literals
     - prefer_contains
-    - prefer_equal_for_default_values
     - slash_for_doc_comments
     - type_init_formals
     - unnecessary_const
